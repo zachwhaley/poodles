@@ -1,0 +1,28 @@
+<h1>What up bro! This is a website about cute poodles</h1>
+
+<button id="enter" onclick="enter()">Press me!</button>
+<div id="poodles" hidden>
+    <img src="https://image.spreadshirtmedia.net/image-server/v1/products/T1459A839PA4459PT28D329420702W10000H10000/views/1,width=378,height=378,appearanceId=839,backgroundColor=F2F2F2/miniature-poodle-dog-breed-cartoon-kawaii-clipart.jpg">
+    <p>
+        First, cute poodles have to be poodles.  Every poodle is cute, but if your poodle is a puppy then it's very cute.  Cute poodles almost always make people (mostly kids) want to cuddle with them, which is all poodles.  Poodles are soooo cute!!!
+    </p>
+    <p>
+        Psych! HA HA!  This isn't just about cute poodles, it's about poodles in general!  First things first, poodles come in three different sizes: standard, miniature, and toy.  Standard poodles are the biggest, miniature are medium sized, and toy are the smallest.  Everyone thinks of poodles as fancy show dogs, although some are, poodles are also very good at agility.  And they are very smart.  Poodles come in lots of different colors, including apricot, parti, black, grey, white, and others.  And that's all there is to know about poodles.
+    </p>
+    <img src ="https://blog.healthypawspetinsurance.com/wp-content/uploads/2022/06/three-dogs-brown-black-and-white-poodles.jpg">
+</div>
+<button id="exit" onclick="exit()" hidden>Exit</button>
+
+<script>
+function enter() {
+    document.getElementById("enter").hidden = true
+    document.getElementById("exit").hidden = false
+    document.getElementById("poodles").hidden = false
+}
+
+function exit() {
+    document.getElementById("enter").hidden = false
+    document.getElementById("exit").hidden = true
+    document.getElementById("poodles").hidden = true
+}
+</script>
